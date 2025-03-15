@@ -19,6 +19,34 @@ app.get('/',(req, res)=>{
     res.sendFile(__dirname + '/public/index.html')
 })
 
+app.get('/checkout',(req, res)=>{
+    res.sendFile(__dirname + '/public/checkout.html')
+})
+
+app.get('/contactUs',(req, res)=>{
+    res.sendFile(__dirname + '/public/contactUs.html')
+})
+
+app.get('/loginRegistrationForm',(req, res)=>{
+    res.sendFile(__dirname + '/public/loginRegistrationForm.html')
+})
+
+app.get('/productDetails',(req, res)=>{
+    res.sendFile(__dirname + '/public/productDetails.html')
+})
+
+app.get('/products',(req, res)=>{
+    res.sendFile(__dirname + '/public/products.html')
+})
+
+app.get('/stroeLocator',(req, res)=>{
+    res.sendFile(__dirname + '/public/storeLocator.html')
+})
+
+app.get('/userAccount',(req, res)=>{
+    res.sendFile(__dirname + '/public/userAccount.html')
+})
+
 // app.post('/press',(req,res)=>{
     
 // })

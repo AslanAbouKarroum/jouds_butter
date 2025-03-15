@@ -311,7 +311,7 @@ checkout.addEventListener("click", () => {
 const initApp = () => {
   console.log("initApp is clicked");
   // get data product
-  fetch("products.json")
+  fetch("/products.json")
     .then((response) => response.json())
     .then((data) => {
       products = data;
